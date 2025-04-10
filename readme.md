@@ -3,7 +3,7 @@
 
 A beautiful, location-aware analog clock built with **HTML, CSS, and JavaScript**. Features real-time movement, automatic timezone detection, and a personalized brand element. Perfect for showcasing clean design and dynamic functionality.
 
-![Analog Clock Preview](https://via.placeholder.com/400x400?text=Sangharsha+Analog+Clock+Preview)
+
 
 ## 🔥 Features
 
