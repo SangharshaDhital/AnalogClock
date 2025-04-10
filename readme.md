@@ -10,7 +10,6 @@ A beautiful, location-aware analog clock built with HTML, CSS, and JavaScript. I
 - 🕒 Smooth animated analog hands.
 - 🔢 Numbers from 1 to 12 placed symmetrically.
 - 🌐 Fallback to local time if location is denied.
-- ✨ Personalized branding with "Sangharsha" at the top.
 
 ---
 
@@ -18,7 +17,7 @@ A beautiful, location-aware analog clock built with HTML, CSS, and JavaScript. I
 
 - HTML5
 - CSS3
-- JavaScript (ES6+)
+- JavaScript 
 - Timezone API: [https://timezonedb.com](https://timezonedb.com)
 
 ---
