@@ -24,7 +24,4 @@ A beautiful, location-aware analog clock built with HTML, CSS, and JavaScript. I
 
 ## 🚀 Setup
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/yourusername/geo-sync-clock.git
-   cd geo-sync-clock
+
