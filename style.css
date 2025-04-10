@@ -10,7 +10,7 @@ body {
   
   .clock-container {
     padding: 30px;
-    background: #ffffff;
+    background: #251fe2;
     border-radius: 50%;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.2);
   }
@@ -21,22 +21,26 @@ body {
     height: 400px;
     border-radius: 50%;
     background: white;
-    border: 8px solid #8a1d2e;
+    border: 8px solid orange;
     overflow: hidden;
   }
   
-  /* Brand text */
+  /* Brand  */
   .brand {
     position: absolute;
-    top: 38px;
+    top: 30px; /* Adjust if needed */
     left: 50%;
-    transform: translateX(-50%);
-    font-size: 1.8em;
-    font-weight: bold;
-    color: crimson;
-    text-shadow: 0px 0px 6px rgba(0, 123, 255, 0.6);
-    z-index: 10;
+    transform: translateX(-50%) rotate(270deg); /* Rotate 270 degrees */
+    width: 200px;
+    height: 200px;
+    z-index: 9;
+    pointer-events: none;
+    text-shadow: 
+      0px 0px 10px rgba(0, 153, 255, 0.9),  /* Lighter blue for soft glow */
+      0px 0px 20px rgba(0, 123, 255, 0.6),  /* Slightly darker blue for depth */
+      0px 0px 30px rgba(152, 21, 252, 0.5); /* Vibrant purple for more intensity */
   }
+  
   
   /* Clock Hands */
   .hand {
@@ -70,7 +74,7 @@ body {
     z-index: 1;
   }
   
-  /* Center pin */
+  /* Center Pin */
   .center-gear {
     position: absolute;
     top: 50%;
@@ -84,7 +88,7 @@ body {
     box-shadow: 0 0 10px rgba(200, 0, 0, 0.3);
   }
   
-  /* Numbers */
+  /* Clock Numbers */
   .clock-number {
     position: absolute;
     width: 30px;
@@ -105,7 +109,7 @@ body {
     color: #666;
   }
   
-  /* Loading and error */
+  /* Loading and Error */
   .loading,
   .error-message {
     position: absolute;
@@ -132,6 +136,6 @@ body {
   }
   
   .error-message {
-    color: crimson;
+    color: rgb(156, 99, 110);
   }
   

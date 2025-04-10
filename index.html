@@ -10,7 +10,19 @@
 <body>
   <div class="clock-container">
     <div id="clock">
-      <div class="brand">Sangharsha</div>
+      <!-- Fixed Circular Brand -->
+      <svg class="brand" viewBox="0 0 200 200">
+        <defs>
+          <path id="circlePath" d="M100,100 m-60,0 a60,60 0 1,1 120,0 a60,60 0 1,1 -120,0" />
+        </defs>
+        <text fill="crimson" font-size="14" font-weight="bold">
+          <textPath href="#circlePath" startOffset="50%" text-anchor="middle">
+            Sangharsha
+          </textPath>
+        </text>
+      </svg>
+      
+
       <div class="hand hour-hand"></div>
       <div class="hand minute-hand"></div>
       <div class="hand second-hand"></div>
