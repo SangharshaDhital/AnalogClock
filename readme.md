@@ -1,27 +1,52 @@
-# Geo-Synced Analog Clock
+```markdown
+# Sangharsha Analog Clock 🌍⏰
 
-A beautiful, location-aware analog clock built with HTML, CSS, and JavaScript. It syncs with the user's time zone and displays real-time movement of hour, minute, and second hands.
+A beautiful, location-aware analog clock built with **HTML, CSS, and JavaScript**. Features real-time movement, automatic timezone detection, and a personalized brand element. Perfect for showcasing clean design and dynamic functionality.
 
----
+![Analog Clock Preview](https://via.placeholder.com/400x400?text=Sangharsha+Analog+Clock+Preview)
 
 ## 🔥 Features
 
-- 📍 Automatically detects user's timezone.
-- 🕒 Smooth animated analog hands.
-- 🔢 Numbers from 1 to 12 placed symmetrically.
-- 🌐 Fallback to local time if location is denied.
+- **📍 Automatic Timezone Detection**  
+  Uses geolocation and TimezoneDB API to adjust to the user's local time.
 
----
+- **🕒 Smooth Animated Hands**  
+  Fluidly moving hour, minute, and second hands with CSS animations.
+
+- **🔢 Symmetrical Number Layout**  
+  Clear 1–12 numbering around the clock face for readability.
+
+- **🌐 Local Time Fallback**  
+  Works with local time if location access is denied.
+
 
 ## 🧰 Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript 
-- Timezone API: [https://timezonedb.com](https://timezonedb.com)
+- **HTML5** for structure
+- **CSS3** for styling and animations
+- **JavaScript** for dynamic functionality
+- **TimezoneDB API** for timezone data
+
+## 🚀 Quick Setup
+
+ **Clone the repository**  
+   ```bash
+   git clone https://github.com/SangharshaDhital/AnalogClock.git
+   cd AnalogClock
+   ```
+
+
+   ```
+
+
+
+## 💬 Contact
+
+- **GitHub Issues**: [Open an Issue](https://github.com/SangharshaDhital/AnalogClock/issues)
+- **Email**: [dhitalsangharsha@gmail.com]
 
 ---
 
-## 🚀 Setup
-
-
+Made with ❤️ by **Sangharsha**  
+*Let’s build timeless tools!*
+```
